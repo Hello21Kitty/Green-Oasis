@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "Bree Serif";
+    src: url("/fonts/BreeSerif-Regular.ttf");
+}
+
+:root {
+    --green:#00CC00;
+    --orange:#FF7400;
+    --red:#CD0074;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+* {
+    font-family: "Bree Serif", serif;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+header {
+    padding: 35px 35px 0;
+    height: 210px;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--green);
+}
+
+header section {
+    display: flex;
+}
+
+.brand-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 94px;
+    background-color: var(--orange);
+    border-radius: 70px;
+}
